@@ -1,0 +1,171 @@
+/*Blog entry 1
+Brandon Ha July 27 2019
+Blog Website
+HTML file: blog.html
+JS file: jsBlog.js*/
+body{
+	background-image: url("images/turtle.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*Background image decoration. Photo by Douglas Tofoli on creativecommons. https://ccsearch.creativecommons.org/photos/327edb80-386b-4544-84ec-c741ad7750a3 */
+}
+a:hover{
+	text-decoration-style: double;
+	color:orangered;
+}
+nav > ul{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+nav li{
+	float:left;
+	border:1px solid #555;
+	padding:5px;
+	margin-right:3px;
+	margin-left:1px;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.wrapper{
+	margin-left: 1px; 
+	margin-right: 1px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left:30px;
+	padding-right:30px;
+	background-color:white;
+	border:4px solid black;
+}
+.mainh{
+    background: linear-gradient(to bottom, #669900 0%, #ff99cc 100%);
+    font-size: 130%;
+}
+.subh{
+	border-bottom:solid;
+	font-size: 160%;
+}
+.image{
+	width: 300px;
+	height:200px;
+	padding:5px;
+}
+.fig{
+	float:right;
+}
+.overflow{
+	overflow:auto;
+}
+.clear{
+	clear:right;
+}
+.cla1{
+	color:red;
+	font-weight: bold;
+}
+.bcolor{
+	margin-left: 150px; 
+	margin-right: 150px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left:10px;
+	padding-right:10px;
+	border:4px solid black;
+	background-color: #D6CBBB;
+	box-shadow: 5px 5px #3F3321;
+}
+.c1{
+	background-color: #9B845E;
+}
+.c2{
+	background-color: #D0CEA2;
+}
+.c4{
+	background-color: #A7B49F;
+}
+.c5{
+	background-color: #9DA3A3;
+}
+.c6{
+	background-color: #C28565;
+}
+.c7{
+	background-color: #EBD5AC;
+}
+.c8{
+	background-color: #A7866B;
+}
+.c9{
+	background-color: #A9B096;
+}
+.c10{
+	background-color: #A6B083;
+}
+.c11{
+	background-color: #9CA2A6;
+}
+.c12{
+	background-color: #969784;
+}
+.c13{
+	background-color: #ACB2A2;
+}
+.bc14{
+	background-color: #CBC0AA;
+}
+.c15{
+	background-color: #978A72;
+}
+.c16{
+	background-color: #A8B385;
+}
+.font{
+	background-color: yellow;
+	font-size:150%;
+}
+/*entry 10*/
+.spacing{
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: yellow;
+	font-size:150%;
+}
+/*entry 11*/
+/*default color*/
+.initial{
+    font-size: 110%;
+    font-weight: bold;
+	border: black solid 3px;
+	background-color: beige;
+}
+.c_red{
+    font-size: 110%;
+    font-weight: bold;
+	border: black solid 3px;
+	background-color: red;
+}
+.c_green{
+    font-size: 110%;
+    font-weight: bold;
+	border: black solid 3px;
+	background-color: green;	
+}
+/*entry 15*/
+.new14{
+	background-color: brown;
+	margin-left: 1px; 
+	margin-right: 1px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left:30px;
+	padding-right:30px;
+	border:4px solid black;
+}
+.newh14{
+	font-size: 220%;
+	color:orange;
+}
+
+
+

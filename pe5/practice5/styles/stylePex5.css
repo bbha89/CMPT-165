@@ -1,0 +1,73 @@
+﻿/* Brandon Ha June 24 2019
+Exercise 5
+Fifth website
+HTML file: pex5.html*/
+
+body {
+    background-image: url("../images/shapes.jpg");
+    background-attachment: fixed;
+    background-size: 50px 50px;
+    /*Background Image. Source: Photo by Arfan A on Unsplash. https://unsplash.com/photos/GVYRkT5f1tA*/
+}
+.uniquebackground {
+    background-color: darkslateblue;
+    border: 5px solid orange;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.figurecolor {
+    background-color: orange;
+    border: 5px solid black;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.imagesize {
+    width: 500px;
+    height: 300px;
+    margin-left:160px;
+    margin-bottom:10px;
+    border: 5px solid yellow;
+}
+.captionpos {
+    text-align: center;
+    margin-top: 20px;
+}
+.color{
+    border: 5px solid white;
+    background-color:azure;
+}
+/*Section 2*/
+.uniquebackground2{
+    background-color:beige;
+}
+.border1 {
+    border: 5px solid orange;
+}
+.border2 {
+    border: 5px solid darkblue;
+}
+.imagesize2 {
+    width: 300px;
+    height: 150px;
+}
+.floatright {
+    float: right;
+}
+.clearsecond{
+    clear:right;
+}
+.clear{
+    overflow:auto;
+}
+
+.backgroundfooter{
+    background-color:aliceblue;
+}

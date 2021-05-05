@@ -1,0 +1,18 @@
+/* CMPT 165 
+   instructor: Diana Cukierman
+   
+   basic styling for table elements coloring 
+   This CSS file may be used directly as is
+   for the practice exercise #3*/
+
+th {
+  background-color: #ffeab2;
+}
+
+td {
+  background-color: #c5cee8;
+}
+
+p.cla1{
+	color:blue;
+}

@@ -1,0 +1,61 @@
+/*Blog entry 1
+Brandon Ha July 14 2019
+Blog Website
+HTML file: blog.html
+JS file: jsBlog.js*/
+body{
+	background-color:#7FFFD4;
+}
+a:hover{
+	font-size: 1.4em;
+	text-decoration-style: double;
+	color:orangered;
+}
+.wrapper{
+	margin-left: 200px; 
+	margin-right: 200px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left:30px;
+	padding-right:30px;
+	background-color:white;
+	border:3px solid black;
+}
+.mainh{
+    background: linear-gradient(to bottom, #669900 0%, #ff99cc 100%);
+}
+.subh{
+	border-bottom:solid;
+}
+.image{
+	width: 300px;
+	height:200px;
+	padding:5px;
+}
+.fig{
+	float:right;
+}
+.overflow{
+	overflow:auto;
+}
+.clear{
+	clear:right;
+}
+.c1{
+	background-color: #F8F8F7;
+}
+.c2{
+	background-color: #A5968F;
+}
+.c3{
+	background-color: #D0CD64;
+}
+.c4{
+	background-color: #BB6E51;
+}
+.c5{
+	background-color: #3F594F;
+}
+.c6{
+	background-color: #847D61;
+}

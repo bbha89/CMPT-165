@@ -1,0 +1,123 @@
+/* Brandon Ha June 14 2019
+Exercise 4
+Fourth website
+HTML file: pex4.html*/
+
+th {
+  background-color: #ffeab2;
+}
+
+td {
+  background-color: #c5cee8;
+}
+
+
+/* 2 class selector */
+.cla1{
+	color:navy;
+	border-bottom:2px solid black;
+}
+/* 3 id selector */
+#id1{
+	color:red;
+	border:4px solid black;
+}
+/* 4 descendent selector */
+dl{
+	border:3px dashed black;
+}
+dl > dt{
+	border-bottom:3px solid orange;
+	border-top:3px solid orange;
+	background-color: red;
+}
+dl > dd{
+	border:1px solid black;
+	background-color: yellow;
+}
+/* 5 background colors*/
+.background1{
+	background-color:beige;
+	border: 5px dotted black;
+	padding:10px;
+	margin:10px;
+}
+.background2{
+	background-color:darkgreen;
+	border-style:dashed;
+	padding:20px;
+	margin:10px;
+	background-clip: padding-box;
+}
+.background4{
+	background-color:khaki;
+	border: 5px dotted black;
+	padding:10px;
+	margin:10px;
+	background-clip: content-box;	
+}
+.background5{
+	background-color:lightgrey;
+	border-style:dashed;
+	padding:20px;
+	margin:10px;
+	background-clip: padding-box;
+}
+.background6{
+	background-color:darkorange;
+	padding:20px;
+	margin:10px;
+	border-style:solid;
+}
+/* 6 image*/
+.background3{
+	background-color:lavender;
+	padding:20px;
+	margin:10px;
+	border-style:solid;
+}
+.bkdimg{
+	background-image: url("images/crayon.jpg");
+	background-size:400px 100px;
+}
+/* Source: Photo by Plush Design Studio on Unsplash.
+https://unsplash.com/photos/l3N9Q27zULw */
+.border1{
+	border: 5px solid black;
+}
+/* 7 fonts */
+.font1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color:red;
+	font-size:20px;
+	font-style:italic;
+}
+.font2{
+	font-family: "Courier New", Courier, monospace;
+	font-variant:small-caps;
+	color:green;
+	font-size:25px;
+}
+.font3{
+	font-family: "Times New Roman", Georgia, serif;
+	font-weight:bold;
+	color:blue;
+	font-size:20px;
+}
+
+/* 8,9,10 numeric systems and color codes */
+.cla3{
+	list-style-type: square;
+}
+.orangered {
+ 	color: #ff4500;
+}
+.indigo{
+	color: #4B0082;
+}
+.forestgreen{
+	color: #228b22;
+}
+.morered{
+	color: #BA8B22;
+}
